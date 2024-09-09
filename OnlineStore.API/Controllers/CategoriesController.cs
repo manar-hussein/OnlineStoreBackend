@@ -22,5 +22,6 @@ namespace OnlineStore.API.Controllers
         {
             return Ok(_categoryServices.GetCategories());
         }
+
     }
 }
