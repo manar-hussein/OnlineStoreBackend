@@ -24,6 +24,8 @@ namespace OnlineStore.API
                 .AddEntityFrameworkStores<OnlineStoreDbContext>()
                 .AddDefaultTokenProviders();
 
+            //sasafadddddddddsdf
+
             builder.Services.AddDbContext<OnlineStoreDbContext>
                 (
                     option => option.UseSqlServer(builder.Configuration.GetConnectionString("Dev"))
